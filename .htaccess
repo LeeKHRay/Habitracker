@@ -1,0 +1,20 @@
+RewriteEngine On
+
+# prevent listing of directory contents
+Options -Indexes
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ /index.php [R,L]
+
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+RewriteCond %{HTTP_REFERER} !^http://localhost [NC] 
+RewriteRule ^public/(css|js)/.* - [F,L]
+
+RewriteCond %{HTTP_REFERER} !^http://localhost [NC] 
+RewriteCond %{THE_REQUEST} /(includes|actions)/.+ [NC]
+RewriteRule ^ - [F,L]

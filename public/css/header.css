@@ -1,0 +1,66 @@
+body {
+    background-image: url('/public/img/background.jpg');
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo {
+    width: 200px;
+}
+
+.nav {
+    overflow: hidden;
+    background-color: white;
+}
+
+.nav a {
+    font-size: 16px;
+    color: rgb(46, 46, 46);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav .dropdownmenu {
+    display: inline-block;
+}
+
+.nav .dropdownmenu .dropdownbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: rgb(46, 46, 46);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.nav a:hover, .dropdownmenu:hover .dropdownbtn {
+    background-color: rgb(183, 183, 255);
+}
+
+.nav .dropdownmenu-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+}
+
+.nav .dropdownmenu-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.nav .dropdownmenu-content a:hover {
+    background-color: #ddd;
+}
+
+.nav .dropdownmenu:hover .dropdownmenu-content {
+    display: block;
+}

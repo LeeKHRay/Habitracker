@@ -1,0 +1,123 @@
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+#form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 560px;
+    border: 2px solid rgb(172, 238, 172);
+    background: #fff;
+    color: #000080;
+    box-sizing: border-box;
+    padding: 30px 30px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
+}
+
+#form h1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#form h2 {
+    font-size: 20px;
+}
+
+#form p, label {
+    padding: 0;
+    font-weight: bold;
+}
+
+#form input, select, li, p {
+    margin-bottom: 12px;
+}
+
+#form ul {
+    padding-left: 24px;
+}
+
+#form input[type="text"], input[type="password"], input[type="number"] {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #000099;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    color: #404040;
+    font-size: 16px;
+}
+
+#form input[type="number"] {
+    width: 10%;
+}
+
+#form .submit-btn {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 200px;
+    background: #668cff;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 20px; 
+}
+
+#form .submit-btn:hover {
+    background: white;
+    color: #668cff;
+    border: 2px solid #668cff;
+}
+
+#form a {
+    line-height: 20px;
+    color: #668cff;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#form a:hover {
+    color: #21219e;
+}
+
+#form p {
+    line-height: 1.5;
+}
+
+#reset-time-btn {
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 100px;
+    color: #fff;
+    background: #66bd8d;
+    font-size: 14px;
+    border-radius: 5px; 
+}
+
+#reset-time-btn:hover {
+    background: white;
+    color: #66bd8d;
+    border: 2px solid #66bd8d;
+}
+
+#form textarea {
+    resize: none;
+    width: 100%;
+    overflow: auto;
+    border-radius: 5px;
+    border: 2px solid #668cff;
+}
+
+#form textarea:focus {
+    outline: none;
+}
+
+#msg::after {
+    content: "";
+    display: inline-block;
+}
