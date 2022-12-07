@@ -1,0 +1,72 @@
+.content {
+    width: 90%;
+    height: 70%;
+    left: 5%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kolom{
+    margin: 12px;
+    width: 25%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    overflow: hidden;
+    opacity: 0.8;
+    transition: 0.2s ease;
+}
+
+.kolom:hover{
+    width: 27%;
+    height: 80%;
+}
+
+.kolom .atas{
+    width: 100%;
+    height: 60%;
+    background: #5353c6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.kolom .atas img{
+    width: 40%;
+    transition: 2s;
+    position: relative;
+    left: 30%;
+    
+}
+
+.kolom .tengah{
+    width: 100%;
+    height: 10%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px; 
+}
+
+.kolom .bawah{
+    width: 100%;
+    height: 30%;
+    background: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kolom .bawah p{
+    width: 80%;
+    height: auto;
+    text-align: center;
+    font-size: 14px;
+}

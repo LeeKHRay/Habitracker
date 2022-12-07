@@ -1,0 +1,88 @@
+body {
+    font-family: sans-serif;
+    color: #3c3939;
+    background-color: #f1f1f1;
+}
+
+#profile-card {
+    width: 450px;
+    margin: 100px auto ;
+    background: #fff;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
+    padding: 20px;
+}
+
+.info {
+    color: #668cff;
+    margin-right: 16px;
+}
+
+.main-container {
+    padding: 20px;
+}
+
+.edit-display {
+    line-height:1.8;
+}
+
+.edit-profile-btn {
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 160px;
+    background: #668cff;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.edit-profile-btn:hover {
+    background: white;
+    color: #668cff;
+    border: 2px solid #668cff;
+}
+
+#form button {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 200px;
+    background: #668cff;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 20px; 
+}
+
+#form button:hover {
+    background: white;
+    color: #668cff;
+    border: 2px solid #668cff;
+}
+
+.finish_edit_profile {
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 160px;
+    background: #668cff;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 20px;
+}
+
+.finish_edit_profile:hover {
+    cursor:pointer;
+    background: white;
+    color: #000;
+    border: 2px solid #668cff;
+}
+
+p.wrong {
+    color: red;
+}
+
+p.success {
+    color: green;
+}
