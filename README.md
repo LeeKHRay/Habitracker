@@ -1,4 +1,5 @@
 # Habitracker
+Habitracker is an online task management application designed to enhance users’ productivity and quality of life, and track their daily habits.
 
 ## How to Run:
 Clone this repository
